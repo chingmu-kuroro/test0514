@@ -19,7 +19,7 @@ ee.Initialize(credentials)
 
 st.set_page_config(layout="wide")
 st.title("🌍 20250514作業：Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C 土地覆蓋 K-means 分10群")
-st.subtitle("🌍 20250514作業：Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C 土地覆蓋 K-means 分10群")
+st.write("🌍 20250514作業：Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C 土地覆蓋 K-means 分10群")
 
 # 地理區域
 my_point = ee.Geometry.Point([120.5583462887228, 24.081653403304525])
