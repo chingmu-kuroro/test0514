@@ -18,7 +18,7 @@ ee.Initialize(credentials)
 ###############################################
 
 st.set_page_config(layout="wide")
-st.title("🌍 使用服務帳戶連接 GEE 的 Streamlit App")
+st.title("🌍 20250514作業：Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C 土地覆蓋 K-means 分10群")
 
 
 # 地理區域
