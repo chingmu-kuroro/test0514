@@ -4,10 +4,13 @@ from datetime import date
 st.title("主頁：選擇日期區間")
 
 # 初始化 session_state
-if 'start_date' not in st.session_state:
-    st.session_state['start_date'] = date(2024, 1, 1)
-if 'end_date' not in st.session_state:
-    st.session_state['end_date'] = date.today()
+#if 'start_date' not in st.session_state:
+#    st.session_state['start_date'] = date(2024, 1, 1)
+#if 'end_date' not in st.session_state:
+#    st.session_state['end_date'] = date.today()
+
+st.session_state['start_date'] = date(2024, 1, 1)
+st.session_state['end_date'] = date.today()
 
 # 日期選擇器
 start_date = st.date_input(label = "選擇起始日期", value = st.session_state['start_date'], min_value = date(2018, 1, 1), max_value = date.today())
