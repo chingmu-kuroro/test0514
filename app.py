@@ -3,6 +3,8 @@ from datetime import date
 
 st.title("主頁：選擇日期區間")
 
+st.set_page_config(layout="wide")
+
 # 初始化 session_state
 #if 'start_date' not in st.session_state:
 #    st.session_state['start_date'] = date(2024, 1, 1)
