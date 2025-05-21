@@ -7,7 +7,8 @@ st.title("應用程式主頁")
 
 st.markdown(
     """
-    This multipage app template demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/opengeos/streamlit-map-template).
+    This multipage app template demonstrates various interactive web apps created using [streamlit](https://streamlit.io), [GEE](https://earthengine.google.com/), 
+    [geemap](https://leafmap.org) and [leafmap](https://leafmap.org). 
     """
 )
 
