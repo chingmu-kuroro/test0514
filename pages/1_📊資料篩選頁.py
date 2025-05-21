@@ -15,7 +15,7 @@ if 'start_date' in st.session_state and 'end_date' in st.session_state:
     # 篩選
     filtered_df = df[(df['日期'] >= pd.to_datetime(start)) & (df['日期'] <= pd.to_datetime(end))]
 
-    st.write(f"你選擇的日期區間是：{start} 到 {end}")
+    st.write(f"你在*主頁*選擇的日期區間是：{start} 到 {end}")
     st.dataframe(filtered_df)
 else:
     st.warning("請先回主頁選擇日期區間！")
