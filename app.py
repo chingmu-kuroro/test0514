@@ -27,6 +27,11 @@ st.session_state['end_date'] = end_date
 st.success(f"目前選擇的日期區間為：{start_date} 到 {end_date}")
 
 
-with st.expander("See demo"):
-    st.image("pucallpa.mp4")
+with st.expander("展示gif檔"):
+    st.image("pucallpa.gif")
 
+with st.expander("播放mp4檔"):
+    video_file = open("pucallpa.mp4", "rb")  # "rb"指的是讀取二進位檔案（圖片、影片）
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
