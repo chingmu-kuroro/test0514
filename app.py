@@ -1,9 +1,10 @@
 import streamlit as st
 from datetime import date
 
+st.set_page_config(layout="wide")
+
 st.title("主頁：選擇日期區間")
 
-st.set_page_config(layout="wide")
 
 # 初始化 session_state
 #if 'start_date' not in st.session_state:
